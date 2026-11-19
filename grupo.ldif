@@ -1,0 +1,4 @@
+dn: cn=desarrolladores,ou=despliegue,dc=distancia26,dc=com
+objectClass: posixGroup
+cn: desarrolladores
+gidNumber: 2000

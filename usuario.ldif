@@ -1,0 +1,12 @@
+dn: uid=azafra,ou=despliegue,dc=distancia26,dc=com
+objectClass: inetOrgPerson
+objectClass: posixAccount
+objectClass: top
+uid: azafra
+sn: Zafra
+cn: A Zafra
+uidNumber: 10000
+gidNumber: 2000
+homeDirectory: /home/azafra
+loginShell: /bin/bash
+userPassword: password

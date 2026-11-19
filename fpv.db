@@ -1,0 +1,16 @@
+$TTL    86400
+@       IN      SOA     ns1.fpv.com. admin.fpv.com. (
+                              1         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                          86400 )       ; Negative Cache TTL
+;
+@       IN      NS      ns1.fpv.com.
+@       IN      MX      10 mail.fpv.com.
+
+ns1     IN      A       192.168.1.10
+www     IN      A       192.168.1.10
+ftp     IN      A       192.168.1.11
+mail    IN      A       192.168.1.12
+alumno  IN      CNAME   www
